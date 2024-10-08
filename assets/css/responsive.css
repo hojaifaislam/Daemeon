@@ -1,0 +1,293 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1920px) { 
+	.container{
+		max-width: 1650px;
+	}
+}
+@media (min-width: 1600px) and (max-width: 1919.98px){
+	html{
+		font-size: 56.81%;
+	}
+	.container{
+		max-width: 1500px;
+	}
+}
+@media (min-width: 1440px) and (max-width: 1599.98px){
+	html{
+		font-size: 51.50%;
+	}
+	.container{
+		max-width: 1360px;
+	}
+}
+@media (min-width: 1366px) and (max-width: 1439.98px){
+	html{
+		font-size: 47.83%;
+	}
+	.container{
+		max-width: 1255px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1365.99px){
+	html{
+		font-size: 41.69%;
+	}
+	.container{
+		max-width: 1100px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+	html{
+		font-size: 33.80%;
+	}
+	html{
+		font-size: 36.38%;
+	}
+	.slider1 .owl-nav button.owl-prev {
+	    left: -5rem;
+	}
+	.slider1 .owl-nav button.owl-next {
+	    right: -5rem;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+	.container{
+		max-width: 680px;
+	}
+}
+@media (max-width: 991.98px) {
+	html{
+		font-size: 47%;
+	}
+	.header_full {
+	    padding: 0rem 5rem 0 0rem;
+	}
+	.logo {
+	    padding: 2.3rem 4rem 1.1rem 3.7rem;
+	    width: 32.4rem;
+	}
+	.header_cont {
+	    padding-left: 1.5rem;
+	}
+	header h2,
+	header h3 {
+	    font-size: 2.7rem;
+	}
+	.menu {
+	    width: 100%;
+	    z-index: -1;
+	    background-color: var(--blue);
+	}
+	.hamburger-menu{
+		right: 5rem;
+	}
+	.menu {
+	    text-align: center;
+	}
+	.menu>ul>li:not(:last-child) {
+	    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.25);
+	}
+	.menu .icon_box {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.menu .icon_box a{
+		background-color: var(--dark);
+		caption-side: #fff;
+	}
+	.menu .icon_box a:hover{
+		background-color: #fff;
+		color: var(--dark);
+	}
+	.menu ul {
+	    max-width: 55rem;
+	    margin: 0 auto;
+	    padding-top: 5rem;
+	}
+	.header_full{
+		z-index: 1;
+	}
+	.footer_first {
+	    text-align: left;
+	}
+	.last_foot{
+		text-align: center;
+	}
+	.last_foot p {
+	    max-width: 100%;
+	}
+	.last_foot p {
+	    margin-bottom: 1rem;
+	    margin-top: 5rem;
+	}
+	.f_logo {
+	    top: -7.7%;	
+	}
+	.heeft_area h2 {
+	    font-size: 4rem;
+	}
+	.media_area {
+	    text-align: center;
+	}
+	.media_area p {
+	    max-width: 100%;
+	}
+	.laats_cont a p {
+	    font-size: 3rem;
+	}
+	.slider1 .owl-nav button {
+	    top: 33%;
+	    font-size: 7rem;
+	}
+	.actuela_card .actuela_img {
+	    width: 32rem;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	}
+	.actuela_card .actuela_img img{
+		height: 100%;
+		-o-object-fit: cover;
+		   object-fit: cover;
+	}
+	.actuela_card {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	}
+	.bouw_area {
+	    text-align: center;
+	}
+	.bouw_area h3 {
+	    font-size: 5rem;
+	}
+	.daemen_img .daemen_pic {
+	    left: -23rem;
+	    bottom: -17rem;
+	    width: 90.5rem;
+	}
+	.daemen_cont h2 {
+	    font-size: 4rem;
+	}
+	.home_area h1 {
+	    font-size: 3.9rem;
+	}
+	.woontips_area p {
+	    margin-top: 3.5rem;
+	    max-width: 100%;
+	}
+	.restauratie_area p {
+	    max-width: 100%;
+	}
+	.restauratie_area h2 {
+	    font-size: 3.4rem;
+	}
+
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	html{
+		font-size: 37%;
+	}
+	.menu>ul>li {
+	    max-width: 400px;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+	html{
+		font-size: 1.6vw;
+	}
+	footer{
+		text-align: center;
+	}
+	.icon_box {
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	}
+	.last_foot p {
+	    max-width: 22rem;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.f_logo {
+	    top: -5.7%;
+	}
+	.heeft_area {
+	    padding: 17.6rem 0 21rem;
+	}
+	.heeft_area h2 {
+	    font-size: 3.2rem;
+	}
+	.slider1 {
+		max-width: 43rem;
+		margin: 0 auto;
+		padding-top: 4rem;
+	}
+	.laats_cont {
+	    text-align: center;
+	}
+	.laats_card .less_ver {
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	        -ms-transform: translateX(-50%);
+	            transform: translateX(-50%);
+	}
+	.more_case_top p {
+	    font-size: 2.2rem;
+	}
+	.more_case_top h2 {
+	    font-size: 4.5rem;
+	}
+	.actuela_card {
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	}
+	.actuela_card .actuela_img {
+	    width: 100%;
+	}
+	.actuela_cont {
+	    padding: 4rem 7rem 5rem;
+	    text-align: center;
+	}
+	.deamen_area {
+	    padding: 6rem 0 51rem;
+	}
+	.daemen_img .daemen_pic {
+	    left: 5rem;
+	    bottom: -98rem;
+	    width: 65.5rem;
+	}
+	.daemen_cont{
+		text-align: center;
+	}
+	.header_cont {
+	    display: none;
+	}
+	.logo {
+	    width: 36.4rem;
+	}
+	.header_img {
+	    display: none;
+	}
+	.next_wrapper span {
+	    display: none;
+	}
+	.page_next ul {
+	    padding: 0 1rem;
+	}
+	.inner_home h2 {
+	    font-size: 5rem;
+	}
+	.contact_area .icon_box{
+		-webkit-box-pack: left;
+		    -ms-flex-pack: left;
+		        justify-content: left;
+	}
+	.slider3 .owl-dots {
+	    bottom: 7.5rem;
+	}
+}
